@@ -3,7 +3,7 @@
 
 > A command-line interface for [Programmer's Proverbs](https://github.com/AntJanus/programmers-proverbs).
 >
-> "Cause what's is life without whimsy"
+> "Cause what's life without whimsy"
 
 
 ## installation:
