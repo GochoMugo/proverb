@@ -14,6 +14,8 @@ Ensure you have [msu](https://github.com/GochoMugo/msu) installed:
 $ msu install gh:GochoMugo/proverb
 ```
 
+You will need to restart your terminal for the `proverb` command to be available.
+
 
 ## get a proverb:
 
