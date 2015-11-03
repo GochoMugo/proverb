@@ -22,7 +22,14 @@ function main() {
   }
 
   # now let's curl
-  echo
-  echo "    $(curl --silent ${ENDPOINT})"
-  echo
+  response=$(curl --silent --show-error ${ENDPOINT} 2>&1)
+
+  [[ "$?" == "0" ]] && {
+    echo
+    echo "    ${response}"
+    echo
+  } || {
+    error "curl fucked up!"
+    error "${response}"
+  }
 }
